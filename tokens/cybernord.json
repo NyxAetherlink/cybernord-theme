@@ -1,0 +1,25 @@
+{
+  "name": "CyberNord",
+  "type": "dark",
+  "colors": {
+    "brand": {
+      "cyanGlow": "#00e5ff",
+      "cyanMid": "#00b4d8",
+      "cyanDeep": "#0077b6",
+      "cyanLight": "#48cae4"
+    },
+    "neutral": {
+      "bg": "#0d1117",
+      "surface": "#2e3440",
+      "muted": "#4c566a",
+      "fg": "#d8dee9",
+      "fgBright": "#eceff4"
+    },
+    "aurora": {
+      "red": "#bf616a",
+      "green": "#a3be8c",
+      "yellow": "#ebcb8b",
+      "purple": "#b48ead"
+    }
+  }
+}

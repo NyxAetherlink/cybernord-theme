@@ -1,0 +1,194 @@
+/* @settings
+name: CyberNord overlay
+id: cybernord-overlay
+settings:
+  -
+    id: cybernord-info
+    title: CyberNord on Shiba Inu
+    type: info-text
+    markdown: true
+    description: |
+      Dark-first overlay for Shiba Inu. Tokens match the CyberNord master palette.
+      Toggle extra glow below. RGB remap is always on while this snippet is enabled.
+  -
+    id: cybernord-glow
+    title: Extra cyan glow
+    description: Hairline glow on tabs, focus, and cards
+    type: class-toggle
+    default: true
+  -
+    id: cn-cyan-glow
+    title: Cyan glow
+    type: variable-color
+    format: hex
+    default: '#00e5ff'
+  -
+    id: cn-cyan-mid
+    title: Cyan mid
+    type: variable-color
+    format: hex
+    default: '#00b4d8'
+  -
+    id: cn-cyan-deep
+    title: Cyan deep
+    type: variable-color
+    format: hex
+    default: '#0077b6'
+  -
+    id: cn-bg
+    title: Background
+    type: variable-color
+    format: hex
+    default: '#0d1117'
+  -
+    id: cn-bg-surface
+    title: Surface
+    type: variable-color
+    format: hex
+    default: '#2e3440'
+  -
+    id: cn-fg
+    title: Foreground
+    type: variable-color
+    format: hex
+    default: '#d8dee9'
+*/
+
+/* CyberNord tokens — defaults; Style Settings overrides --cn-* */
+:root {
+  --cn-cyan-glow: #00e5ff;
+  --cn-cyan-mid: #00b4d8;
+  --cn-cyan-deep: #0077b6;
+  --cn-cyan-light: #48cae4;
+  --cn-bg: #0d1117;
+  --cn-bg-surface: #2e3440;
+  --cn-bg-muted: #4c566a;
+  --cn-fg: #d8dee9;
+  --cn-fg-bright: #eceff4;
+  --cn-red: #bf616a;
+  --cn-green: #a3be8c;
+  --cn-yellow: #ebcb8b;
+  --cn-purple: #b48ead;
+}
+
+/* Shiba RGB engine (comma triples). Must live on .theme-dark. */
+.theme-dark {
+  --text: 216, 222, 233;
+  --subtext1: 236, 239, 244;
+  --subtext0: 76, 86, 106;
+  --overlay2-rgb: 76, 86, 106;
+  --overlay2: rgb(var(--overlay2-rgb));
+  --overlay1: 76, 86, 106;
+  --overlay0-rgb: 46, 52, 64;
+  --overlay0: rgb(var(--overlay0-rgb));
+  --surface2: 76, 86, 106;
+  --surface1-rgb: 76, 86, 106;
+  --surface1: rgb(var(--surface1-rgb));
+  --surface0: 46, 52, 64;
+  --base: 13, 17, 23;
+  --side: 46, 52, 64;
+  --exterior: 13, 17, 23;
+
+  --red-rgb: 191, 97, 106;
+  --red: rgb(var(--red-rgb));
+  --green-rgb: 163, 190, 140;
+  --green: rgb(var(--green-rgb));
+  --yellow-rgb: 235, 203, 139;
+  --yellow: rgb(var(--yellow-rgb));
+  --violet-rgb: 180, 142, 173;
+  --violet: rgb(var(--violet-rgb));
+  --blue-rgb: 0, 180, 216;
+  --blue: rgb(var(--blue-rgb));
+  --cyan-rgb: 0, 229, 255;
+  --cyan: rgb(var(--cyan-rgb));
+  --sea-rgb: 0, 119, 182;
+  --sea: rgb(var(--sea-rgb));
+  --turquoise-rgb: 72, 202, 228;
+  --turquoise: rgb(var(--turquoise-rgb));
+  --rose-rgb: 191, 97, 106;
+  --rose: rgb(var(--rose-rgb));
+  --lily-rgb: 72, 202, 228;
+  --lily: rgb(var(--lily-rgb));
+  --orange-rgb: 235, 203, 139;
+  --orange: rgb(var(--orange-rgb));
+  --lemon-rgb: 235, 203, 139;
+  --lemon: rgb(var(--lemon-rgb));
+
+  --accent: var(--cn-cyan-glow);
+  --accent-rgb: var(--cyan-rgb);
+
+  --background-primary: var(--cn-bg);
+  --background-primary-alt: var(--cn-bg-surface);
+  --background-secondary: var(--cn-bg-surface);
+  --background-secondary-alt: var(--cn-bg);
+  --text-normal: var(--cn-fg);
+  --text-muted: var(--cn-bg-muted);
+  --text-faint: var(--cn-bg-muted);
+  --text-accent: var(--cn-cyan-glow);
+  --text-accent-hover: var(--cn-cyan-light);
+  --color-accent: var(--cn-cyan-glow);
+  --color-accent-1: var(--cn-cyan-mid);
+  --color-accent-2: var(--cn-cyan-deep);
+  --interactive-accent: var(--cn-cyan-glow);
+  --interactive-accent-hover: var(--cn-cyan-mid);
+  --interactive-accent-rgb: var(--cyan-rgb);
+  --blockquote-border-color: var(--cn-cyan-deep);
+  --hr-outline-color: var(--cn-cyan-deep);
+  --code-background: var(--cn-bg-surface);
+  --nav-item-background-selected: color-mix(in srgb, var(--cn-cyan-glow) 18%, transparent);
+  --tag-background: color-mix(in srgb, var(--cn-cyan-glow) 12%, transparent);
+  --tag-color: var(--cn-cyan-mid);
+}
+
+.shiba-accent-style {
+  --accent: var(--cn-cyan-glow);
+  --accent-rgb: var(--cyan-rgb);
+  --color-accent: var(--cn-cyan-glow);
+  --interactive-accent: var(--cn-cyan-glow);
+  --text-accent: var(--cn-cyan-glow);
+}
+
+/* Extra glow — Style Settings class-toggle `cybernord-glow` */
+.theme-dark.cybernord-glow {
+  --shadow-s: 0 0 8px color-mix(in srgb, var(--cn-cyan-glow) 28%, transparent);
+  --shadow-l: 0 0 24px color-mix(in srgb, var(--cn-cyan-glow) 18%, transparent);
+}
+
+.theme-dark.cybernord-glow .workspace-tab-header.is-active {
+  box-shadow: inset 0 -2px 0 var(--cn-cyan-glow);
+}
+
+.theme-dark.cybernord-glow input:focus,
+.theme-dark.cybernord-glow textarea:focus,
+.theme-dark.cybernord-glow .is-focused {
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--cn-cyan-glow) 45%, transparent);
+}
+
+.theme-dark .callout {
+  --callout-color: 0, 180, 216;
+}
+
+.theme-dark .callout[data-callout="infobox"],
+.theme-dark .callout[data-callout="cards"],
+.theme-dark .callout[data-callout="multi-column"] {
+  border-color: var(--cn-cyan-deep);
+  background-color: color-mix(in srgb, var(--cn-bg-surface) 88%, transparent);
+}
+
+.theme-dark.cybernord-home .callout[data-callout="cards"] {
+  box-shadow: 0 0 16px color-mix(in srgb, var(--cn-cyan-glow) 12%, transparent);
+}
+
+.theme-dark progress,
+.theme-dark .progress,
+.theme-dark meter {
+  accent-color: var(--cn-cyan-mid);
+}
+
+.theme-dark .markdown-rendered progress::-webkit-progress-bar {
+  background-color: var(--cn-bg-muted);
+}
+
+.theme-dark .markdown-rendered progress::-webkit-progress-value {
+  background-color: var(--cn-cyan-mid);
+}

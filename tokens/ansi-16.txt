@@ -1,0 +1,16 @@
+00 (Black):         #2e3440
+01 (Red):           #bf616a
+02 (Green):         #a3be8c
+03 (Yellow):        #ebcb8b
+04 (Blue):          #00b4d8
+05 (Magenta):       #b48ead
+06 (Cyan):          #0077b6
+07 (White):         #e5e9f0
+08 (Bright Black):  #4c566a
+09 (Bright Red):    #bf616a
+10 (Bright Green):  #a3be8c
+11 (Bright Yellow): #ebcb8b
+12 (Bright Blue):   #00e5ff
+13 (Bright Magenta):#b48ead
+14 (Bright Cyan):   #48cae4
+15 (Bright White):  #eceff4

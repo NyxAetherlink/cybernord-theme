@@ -1,0 +1,19 @@
+{
+  "elementra@@elementra-element": "elementra-lightning",
+  "shiba-theme-settings@@shiba-colors-theme-dark": "pure-dark",
+  "shiba-theme-settings@@shiba-accent-style": true,
+  "shiba-theme-settings@@shiba-accent-colors": "accent-cyan",
+  "shiba-theme-settings@@background-primary@@dark": "#0D1117FF",
+  "shiba-theme-settings@@background-primary-alt@@dark": "#2E3440FF",
+  "shiba-theme-settings@@background-secondary@@dark": "#2E3440FF",
+  "shiba-theme-settings@@background-secondary-alt@@dark": "#0D1117FF",
+  "shiba-theme-settings@@background-modifier-border@@dark": "#4C566AFF",
+  "shiba-theme-settings@@color-accent@@dark": "#00E5FFFF",
+  "cybernord-overlay@@cybernord-glow": true,
+  "cybernord-overlay@@cn-cyan-glow": "#00E5FF",
+  "cybernord-overlay@@cn-cyan-mid": "#00B4D8",
+  "cybernord-overlay@@cn-cyan-deep": "#0077B6",
+  "cybernord-overlay@@cn-bg": "#0D1117",
+  "cybernord-overlay@@cn-bg-surface": "#2E3440",
+  "cybernord-overlay@@cn-fg": "#D8DEE9"
+}

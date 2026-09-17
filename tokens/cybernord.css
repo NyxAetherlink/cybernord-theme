@@ -1,0 +1,22 @@
+:root {
+  /* Brand Accents */
+  --cn-cyan-glow:      #00e5ff;
+  --cn-cyan-mid:       #00b4d8;
+  --cn-cyan-deep:      #0077b6;
+  --cn-cyan-light:     #48cae4;
+
+  /* Nord Base Neutral & Backgrounds */
+  --cn-bg:              #0d1117;
+  --cn-bg-surface:      #2e3440;
+  --cn-bg-muted:        #4c566a;
+
+  /* Text & Foregrounds */
+  --cn-fg:              #d8dee9;
+  --cn-fg-bright:       #eceff4;
+
+  /* Nord Auroras */
+  --cn-red:             #bf616a;
+  --cn-green:           #a3be8c;
+  --cn-yellow:          #ebcb8b;
+  --cn-purple:          #b48ead;
+}
