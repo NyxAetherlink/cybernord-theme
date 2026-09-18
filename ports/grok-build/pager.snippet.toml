@@ -1,0 +1,13 @@
+# Optional. Copy to ~/.grok/pager.toml (or merge).
+# Tuned for theme = "terminal" + CyberNord: no extra bands over the void.
+
+[scrollback.blocks.prompt]
+vpad = true
+bg = "none"
+show_prefix = true
+
+[scrollback.display]
+dim_accent = 0.45
+
+[prompt]
+show_prefix = true

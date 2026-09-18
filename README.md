@@ -32,6 +32,9 @@ Canonical files: `tokens/cybernord.css`, `tokens/cybernord.json`.
 | Ghostty | `ports/ghostty/CyberNord` | Usable |
 | Alacritty | `ports/alacritty/cybernord.toml` | Usable |
 | VS Code | `ports/vscode/` | Stub (bg / fg / cursor only) |
+| Chromium (Chrome / Brave / Edge) | `ports/chromium/` | Usable (unpacked theme) |
+| Grok Build TUI | `ports/grok-build/` | Usable (`theme = "terminal"` + emulator palette) |
+| Waybar | `ports/waybar/` | Usable (stylesheet only) |
 
 ### Obsidian
 

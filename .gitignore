@@ -4,3 +4,6 @@ Thumbs.db
 *~
 .idea/
 .vscode/
+
+# Chromium regenerates this when you Load unpacked
+ports/chromium/Cached Theme.pak

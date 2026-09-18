@@ -1,0 +1,8 @@
+# Merge into ~/.grok/config.toml
+# Requires a CyberNord terminal profile (ports/ghostty or ports/alacritty).
+
+[features]
+terminal_theme = true
+
+[ui]
+theme = "terminal"
