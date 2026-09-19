@@ -17,8 +17,8 @@ To remove it: Appearance → Reset to default, or remove the unpacked item on `c
 | Chrome piece | Token |
 | :--- | :--- |
 | Window frame | Void `#0d1117` |
-| Toolbar / active tab | Surface `#2e3440` |
-| Inactive tabs | Void, slightly cyan-tinted |
+| Toolbar / active tab | Surface `#2e3440` with a 2px cyan glow on the top edge and a deep-cyan hairline under the toolbar |
+| Inactive tabs | Lifted void `#161b22`, cyan-tinted, same deep-cyan rail so the strip is not a grey slab |
 | Tab / bookmark text | Snow `#eceff4` / `#d8dee9` |
 | Omnibox | Void + bright snow |
 | NTP background | Void |

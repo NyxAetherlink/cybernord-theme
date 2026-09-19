@@ -35,6 +35,10 @@ Canonical files: `tokens/cybernord.css`, `tokens/cybernord.json`.
 | Chromium (Chrome / Brave / Edge) | `ports/chromium/` | Usable (unpacked theme) |
 | Grok Build TUI | `ports/grok-build/` | Usable (`theme = "terminal"` + emulator palette) |
 | Waybar | `ports/waybar/` | Usable (stylesheet only) |
+| Dolphin | `ports/dolphin/` | Usable on Plasma; zebra-stripe bug on Sway |
+| Thunar | `ports/thunar/` | Usable (GTK3 overlay; Sway GUI file manager) |
+| File-manager icons | `ports/icons/CyberNord/` | Usable (Breeze-inheriting overlay) |
+| Wallpapers | `wallpapers/` | Ready |
 
 ### Obsidian
 

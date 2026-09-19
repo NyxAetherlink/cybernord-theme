@@ -7,3 +7,7 @@ Thumbs.db
 
 # Chromium regenerates this when you Load unpacked
 ports/chromium/Cached Theme.pak
+.directory
+__pycache__/
+*.py[cod]
+icon-theme.cache
